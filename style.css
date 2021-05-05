@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+section {
+  postion: relative;
+  border-radius: 50%;
+}
+
+label {
+  position: absolute;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+
+input {
+  width: 10em;
+  height: 10em;
+  border: 1em solid fuchsia;
+}
+
+h1 {
+  font-size: 5em;
+  background: -webkit-linear-gradient(blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
